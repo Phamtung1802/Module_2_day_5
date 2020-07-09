@@ -5,7 +5,8 @@ public class NhanVien {
     private String MaNV;
     private String TenNV;
     private String PhongBan;
-
+    public static int a=0;
+    
     public NhanVien() {
         this.MaNV = "chua co";
         this.TenNV = "chua co";
