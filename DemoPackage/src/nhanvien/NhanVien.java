@@ -6,7 +6,11 @@ public class NhanVien {
     private String TenNV;
     private String PhongBan;
     public static int a=0;
-    
+
+    static {
+        System.out.println("ok");
+    }
+
     public NhanVien() {
         this.MaNV = "chua co";
         this.TenNV = "chua co";
